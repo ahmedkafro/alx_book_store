@@ -1,0 +1,10 @@
+{
+  "name": "MySQL Codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/mysql:1": {
+      "version": "8.0"
+    }
+  },
+  "forwardPorts": [3306]
+}
